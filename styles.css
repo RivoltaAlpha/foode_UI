@@ -7,7 +7,7 @@ body{
 
 header{
     display: flex;
-    padding: 0%20px;
+    padding: 20px;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #222;
@@ -77,9 +77,50 @@ button{
   }
   
   .food-item p {
-    font-size: 18Ferpx;
+    font-size: 18px;
   }
   
   .food-item button:hover {
     background-color: #ffaa00;
   }
+@media (max-width: 769px){
+.cards{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 10px;
+    height: 500px;
+    width: 250px;
+    margin: 20px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.486);
+    gap: 3px;
+    line-height: 32px;
+}
+.image {
+    width: 250px;
+    height: 200px;
+}
+.food-item{
+    display: flex;
+    flex-direction: column;
+}
+.food-item p {
+    font-size: 10px;
+  }
+  
+header h1{
+font-size: 15px;
+}
+header span{
+    gap: 40px;
+}
+.header img {
+    height: 30px;
+    margin-left: 10px;
+}
+}
