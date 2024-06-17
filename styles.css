@@ -14,7 +14,10 @@ header{
 }
 header h1{
     font-size: 30px;
-    margin-left: 30px;
+    margin-left: 20px;
+    font-weight: 300;
+    font-style:inherit ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header span{
     display: flex;
@@ -24,7 +27,7 @@ header span{
 }
 .header img {
     border-radius: 50%;
-    height: 70px;
+    height: 60px;
     box-shadow: #333;
     margin-left: 20px;
 }
@@ -56,6 +59,7 @@ button{
     align-items: center;
     background-color: rgba(0, 0, 0, 0.486);
     gap: 3px;
+    line-height: 32px;
 }
 .food-item{
     background-color: #222;
@@ -73,7 +77,7 @@ button{
   }
   
   .food-item p {
-    font-size: 20px;
+    font-size: 18Ferpx;
   }
   
   .food-item button:hover {
