@@ -1,17 +1,16 @@
 body{
-    background-color: #333;
+    background-color:#222;
     color: rgb(255, 153, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.cards{
-    padding: 20px;
-    align-items: center;
-    justify-content: space-around;
-    display: flex;
-}
+
 header{
     display: flex;
+    padding: 0%20px;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: #222;
 }
 header h1{
     font-size: 30px;
@@ -29,25 +28,54 @@ header span{
     box-shadow: #333;
     margin-left: 20px;
 }
+.image {
+    width: 350px;
+    height: 300px;
+}
+button{
+    background-color: rgba(255, 68, 0, 0.603);
+    border-radius: 5px;
+    margin-left: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.cards{
+    background-color: #111;
+    margin-left: 200px;
+    margin-right: 200px;
+}
 .card{
     display: flex;
     flex-direction: column;
     border: none;
     border-radius: 10px;
-    height: 700px;
-    width: 400px;
+    height: 600px;
+    width: 350px;
     margin: 20px;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.486);
+    gap: 3px;
 }
-.image {
-    width: 400px;
-    height: 300px;
+.food-item{
+    background-color: #222;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
 }
-button{
-    background-color: rgba(255, 68, 0, 0.603);
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    margin-left: 10px;
-}
+  .food-item h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: white;
+  }
+  
+  .food-item p {
+    font-size: 20px;
+  }
+  
+  .food-item button:hover {
+    background-color: #ffaa00;
+  }
