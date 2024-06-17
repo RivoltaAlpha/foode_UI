@@ -11,6 +11,7 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #222;
+    align-items: center;
 }
 header h1{
     font-size: 30px;
@@ -27,7 +28,7 @@ header span{
 }
 .header img {
     border-radius: 50%;
-    border: 5px solid #2b6de9;
+    border: 1px solid #e9772b;
     height: 60px;
     box-shadow: #333;
     margin-left: 20px;
@@ -115,12 +116,16 @@ button{
   
 header h1{
 font-size: 15px;
+margin-left: 5px;
 }
+header p{
+    font-size: 15px;
+    }
 header span{
-    gap: 40px;
+    gap: 30px;
 }
 .header img {
     height: 30px;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 }
